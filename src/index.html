@@ -6,7 +6,7 @@
     <meta name="msapplication-tap-highlight" content="no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <title>Roadmap Project: Testimonial Cards</title>
+    <title>Roadmap Project: Cookie Consent</title>
     <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -20,7 +20,7 @@
     <meta itemprop="name" content="Project"/>
     <meta
             itemprop="description"
-            content="Content description less than 200 characters"
+            content="Create a simple cookie consent banner using JavaScript."
     />
     <link type="text/plain" rel="author" href="humans.txt"/>
     <link rel="stylesheet" href="css/app.css"/>
@@ -32,16 +32,26 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-    <!-- main start -->
+<!-- main start -->
 
-    <main role="main">
-        <section class="grid-layout">
-            <img src="https://placehold.co/600x400/000000/FFF" alt="">
-        </section>
-    </main>
+<main role="main">
+    <section class="grid-layout">
+        <img src="https://placehold.co/600x400?text=Hello+World" alt="">
+    </section>
+    <div class="cookie-consent">
+        <div class="cookie-consent-header">
+            <i class="far fa-window-close"></i>
+        </div>
+        <div class="cookie-consent-content">
+            <i class="fas fa-cookie-bite"></i>
+            <p class="cookie-consent-text">We use cookies to improve your user experience</p>
+            <button id="cookieConsent" class="btn">I like cookies</button>
+        </div>
+    </div>
+</main>
 
-    <!-- main end -->
+<!-- main end -->
 
-    <script type="text/javascript" src="../build/app.js"></script>
+<script type="text/javascript" src="../build/app.js"></script>
 </body>
 </html>
